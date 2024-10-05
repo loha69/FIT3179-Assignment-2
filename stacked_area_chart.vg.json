@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300, "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/IndustryStackedLine.csv"
+  },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "yearmonth", "field": "Date",
+      "axis": {"format": "%d-%m-%Y"}
+    },
+    "y": {
+      "aggregate": "sum", "field": "Value"
+    },
+    "color": {
+      "field": "Industry ",
+      "scale": {"scheme": "category20b"}
+      }
+    }
+  }

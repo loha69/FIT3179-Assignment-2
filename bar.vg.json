@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A horizontal bar chart showing industry change from before COVID-19.",
+  "title": {
+    "text": "Industry Change from Before COVID-19 (%)",
+    "fontSize": 18,
+    "anchor": "start",
+    "color": "#000"
+  },  
+  "data": {
+    "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/IndustryBar.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Industry",
+      "type": "nominal",
+      "sort": "-x", 
+      "axis": {
+        "title": null,
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      }
+    },
+    "x": {
+      "field": "Change from before COVID-19 (%)",
+      "type": "quantitative",
+      "axis": {
+        "title": "Change from before COVID-19 (%)",
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      }
+    },
+    "color": {
+      "condition": {
+        "test": "datum.Change > 0",
+        "value": "#1f77b4"
+      },
+      "value": "#d62728"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Job Vacancies ('000) Over Time",
+    "title": {
+        "text": "Job Vacancies, Seasonally Adjusted ('000)",
+        "fontSize": 18,
+        "anchor": "start",
+        "color": "#000"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/Trend%20of%20Job%20Vacancies.csv"
+    },
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "ordinal",
+        "title": "Date",
+        "axis": {"labelAngle": -45}
+      },
+      "y": {
+        "field": "Job vacancies", 
+        "type": "quantitative",
+        "title": "Job Vacancies"
+      },
+      "tooltip": [
+        {"field": "Date", "type": "ordinal"},
+        {"field": "Job vacancies", "type": "quantitative"}
+      ]
+    }
+  }
+  
