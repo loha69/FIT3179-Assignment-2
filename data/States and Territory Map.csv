@@ -1,0 +1,169 @@
+State,Value,Date
+New South Wales,72.8,2019-08-01
+Victoria,61.2,2019-08-01
+Queensland,39.1,2019-08-01
+South Australia,11.3,2019-08-01
+Western Australia,26.4,2019-08-01
+Tasmania,3.6,2019-08-01
+Northern Territory,4.3,2019-08-01
+Australian Capital Territory,7.6,2019-08-01
+New South Wales,80.2,2019-11-01
+Victoria,60.1,2019-11-01
+Queensland,39.2,2019-11-01
+South Australia,11.4,2019-11-01
+Western Australia,25.7,2019-11-01
+Tasmania,3.6,2019-11-01
+Northern Territory,3.5,2019-11-01
+Australian Capital Territory,7.7,2019-11-01
+New South Wales,79.3,2020-02-01
+Victoria,59.7,2020-02-01
+Queensland,38.4,2020-02-01
+South Australia,11.7,2020-02-01
+Western Australia,27.6,2020-02-01
+Tasmania,3.4,2020-02-01
+Northern Territory,2.9,2020-02-01
+Australian Capital Territory,6.6,2020-02-01
+New South Wales,39.8,2020-05-01
+Victoria,28.7,2020-05-01
+Queensland,25.2,2020-05-01
+South Australia,6.8,2020-05-01
+Western Australia,16.8,2020-05-01
+Tasmania,1.9,2020-05-01
+Northern Territory,1.7,2020-05-01
+Australian Capital Territory,3.6,2020-05-01
+New South Wales,62.2,2020-08-01
+Victoria,45.8,2020-08-01
+Queensland,42.1,2020-08-01
+South Australia,12.5,2020-08-01
+Western Australia,32.2,2020-08-01
+Tasmania,3.4,2020-08-01
+Northern Territory,4.2,2020-08-01
+Australian Capital Territory,5.6,2020-08-01
+New South Wales,82.7,2020-11-01
+Victoria,58.4,2020-11-01
+Queensland,47.9,2020-11-01
+South Australia,15.6,2020-11-01
+Western Australia,37.4,2020-11-01
+Tasmania,5.1,2020-11-01
+Northern Territory,4.2,2020-11-01
+Australian Capital Territory,7.9,2020-11-01
+New South Wales,94,2021-02-01
+Victoria,65.6,2021-02-01
+Queensland,53.5,2021-02-01
+South Australia,19.3,2021-02-01
+Western Australia,40,2021-02-01
+Tasmania,5.7,2021-02-01
+Northern Territory,4.8,2021-02-01
+Australian Capital Territory,8.2,2021-02-01
+New South Wales,112.8,2021-05-01
+Victoria,87.6,2021-05-01
+Queensland,67.2,2021-05-01
+South Australia,21.3,2021-05-01
+Western Australia,46.2,2021-05-01
+Tasmania,6.5,2021-05-01
+Northern Territory,5,2021-05-01
+Australian Capital Territory,8.8,2021-05-01
+New South Wales,95.2,2021-08-01
+Victoria,81.3,2021-08-01
+Queensland,70.6,2021-08-01
+South Australia,18,2021-08-01
+Western Australia,52.1,2021-08-01
+Tasmania,5.8,2021-08-01
+Northern Territory,6.1,2021-08-01
+Australian Capital Territory,8,2021-08-01
+New South Wales,120.9,2021-11-01
+Victoria,106,2021-11-01
+Queensland,70.3,2021-11-01
+South Australia,23.7,2021-11-01
+Western Australia,60.8,2021-11-01
+Tasmania,6.8,2021-11-01
+Northern Territory,6.2,2021-11-01
+Australian Capital Territory,9.9,2021-11-01
+New South Wales,130,2022-02-01
+Victoria,101.8,2022-02-01
+Queensland,76.9,2022-02-01
+South Australia,24.5,2022-02-01
+Western Australia,66.5,2022-02-01
+Tasmania,7.3,2022-02-01
+Northern Territory,8.5,2022-02-01
+Australian Capital Territory,11.5,2022-02-01
+New South Wales,145.1,2022-05-01
+Victoria,120.1,2022-05-01
+Queensland,78.6,2022-05-01
+South Australia,24.5,2022-05-01
+Western Australia,65.2,2022-05-01
+Tasmania,7.5,2022-05-01
+Northern Territory,7.7,2022-05-01
+Australian Capital Territory,12.3,2022-05-01
+New South Wales,150.8,2022-08-01
+Victoria,126.6,2022-08-01
+Queensland,85.8,2022-08-01
+South Australia,25.2,2022-08-01
+Western Australia,60.7,2022-08-01
+Tasmania,6.3,2022-08-01
+Northern Territory,7.6,2022-08-01
+Australian Capital Territory,12,2022-08-01
+New South Wales,133,2022-11-01
+Victoria,117.7,2022-11-01
+Queensland,85.7,2022-11-01
+South Australia,25.3,2022-11-01
+Western Australia,61.9,2022-11-01
+Tasmania,7.1,2022-11-01
+Northern Territory,7.5,2022-11-01
+Australian Capital Territory,12.2,2022-11-01
+New South Wales,145,2023-02-01
+Victoria,110.8,2023-02-01
+Queensland,85,2023-02-01
+South Australia,22.9,2023-02-01
+Western Australia,52.8,2023-02-01
+Tasmania,7.7,2023-02-01
+Northern Territory,6.9,2023-02-01
+Australian Capital Territory,11.5,2023-02-01
+New South Wales,128.1,2023-05-01
+Victoria,105.1,2023-05-01
+Queensland,77.1,2023-05-01
+South Australia,24.9,2023-05-01
+Western Australia,54.9,2023-05-01
+Tasmania,7.1,2023-05-01
+Northern Territory,6.3,2023-05-01
+Australian Capital Territory,11.4,2023-05-01
+New South Wales,122.4,2023-08-01
+Victoria,99.6,2023-08-01
+Queensland,80,2023-08-01
+South Australia,24.7,2023-08-01
+Western Australia,52.5,2023-08-01
+Tasmania,6.8,2023-08-01
+Northern Territory,6,2023-08-01
+Australian Capital Territory,10.4,2023-08-01
+New South Wales,119.5,2023-11-01
+Victoria,94.9,2023-11-01
+Queensland,78.2,2023-11-01
+South Australia,24,2023-11-01
+Western Australia,49.5,2023-11-01
+Tasmania,6.5,2023-11-01
+Northern Territory,5.2,2023-11-01
+Australian Capital Territory,8.6,2023-11-01
+New South Wales,107.6,2024-02-01
+Victoria,91.5,2024-02-01
+Queensland,69.5,2024-02-01
+South Australia,25.9,2024-02-01
+Western Australia,47.8,2024-02-01
+Tasmania,6.8,2024-02-01
+Northern Territory,4.8,2024-02-01
+Australian Capital Territory,8.7,2024-02-01
+New South Wales,103.5,2024-05-01
+Victoria,87.4,2024-05-01
+Queensland,67,2024-05-01
+South Australia,21.5,2024-05-01
+Western Australia,42,2024-05-01
+Tasmania,6.4,2024-05-01
+Northern Territory,5.5,2024-05-01
+Australian Capital Territory,8.3,2024-05-01
+New South Wales,101.4,2024-08-01
+Victoria,82.8,2024-08-01
+Queensland,67.5,2024-08-01
+South Australia,19.5,2024-08-01
+Western Australia,41.5,2024-08-01
+Tasmania,6.1,2024-08-01
+Northern Territory,5.1,2024-08-01
+Australian Capital Territory,7.9,2024-08-01
