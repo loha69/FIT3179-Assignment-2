@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Percentage of Job Vacancies 2024",
+    "title": "Percentage of Job Vacancies 2024",
+    "data": {
+      "url": "data/IndustryPieChart.csv"
+    },
+    "selection": {
+      "industry_highlight": {
+        "type": "multi", 
+        "fields": ["Industry "],  
+        "bind": "legend"
+      }
+    },
+    "mark": {"type": "arc", "innerRadius": 50, "tooltip": true},
+    "encoding": {
+      "theta": {"field": "Value", "type": "quantitative", "stack": "normalize"},
+      "color": {"field": "Industry ", "type": "nominal"},  
+      "opacity": {
+        "condition": {"selection": "industry_highlight", "value": 1},
+        "value": 0.6
+      }
+    }
+  }
+  
