@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Percentage of Job Vacancies",
+    "title": "Percentage of Job Vacancies 2024",
+    "data": {
+      "url": "data/IndustryPieChart.csv"
+    },
+    "encoding": {
+      "theta": {"field": "Value", "type": "quantitative", "stack": "normalize"},
+      "color": {"field": "Industry ", "type": "nominal"}
+    },
+    "layer": [
+      {
+        "mark": {"type": "arc", "innerRadius": 50, "tooltip": true}
+      },
+      {
+        "mark": {
+          "type": "text",
+          "radiusOffset": 20,
+          "fontSize": 12,
+          "fontStyle": "italic"
+        },
+        "encoding": {
+          "text": {
+            "field": "Industry ",
+            "type": "nominal"
+          },
+          "theta": {"field": "Value", "type": "quantitative", "stack": "normalize"},
+          "radius": {"value": 150},
+          "color": {"value": "black"},
+          "opacity": {
+            "condition": {
+              "test": "datum['Industry '] == 'Health care and social assistance' || datum['Industry '] == 'Administrative and support services' || datum['Industry '] == 'Professional, scientific and technical services' || datum['Industry '] == 'Retail trade'",
+              "value": 1
+            },
+            "value": 0
+          }
+        }
+      }
+    ]
+  }
+  
