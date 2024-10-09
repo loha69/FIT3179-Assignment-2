@@ -1,12 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Job Vacancies ('000) Over Time",
-    "title": {
-        "text": "Trend of Job Vacancies from Aug 1980 to Aug 2024",
-        "fontSize": 18,
-        "anchor": "start",
-        "color": "#000"
-    },
     "data": {
       "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/Trend%20of%20Job%20Vacancies.csv"
     },
