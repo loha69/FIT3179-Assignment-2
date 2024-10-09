@@ -10,63 +10,57 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-    <title>Two Interactive Graphs</title>
+    <link rel="stylesheet" href="style.css"> 
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        .chart-container {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            margin-bottom: 40px;
-            width: 80%; /* Adjust width as necessary */
-            max-width: 600px; /* Limit the maximum width */
-            text-align: center;
-        }
-
-        .chart-title {
-            font-weight: bold;
-            margin-bottom: 10px;
-            font-size: 1.2em;
-        }
-
-        p {
-            color: #666;
-            margin: 0;
-            padding: 10px 0;
-        }
-    </style>
+    <title id = "c-align">FIT3179 - Adam Loh Job Vacancies HTML Dashboard</title>
 </head>
 
 <body>
-    <h1>Two Interactive Graphs</h1>
+    <header>
+        <h1 id = "c-align">Australia's Job Vacancy Trends and Analysis</h1>
+        <p id="c-align">
+            In a rapidly changing economic landscape, understanding employment trends is 
+            more crucial than ever. This powerful tool provides real-time 
+            insights into job opportunities across various industries and regions, empowering 
+            policymakers, businesses, and job seekers to make informed decisions. 
+            Discover emerging sectors, identify skill shortages, and track economic shifts—all 
+            in one place! Whether you are looking to hire, seek employment, or understand market dynamics, 
+            this dashboard is your go-to resource for fostering growth and building a stronger workforce in Australia. 
+        </p>
+    </header>
 
-    <div class="chart-container" id="pie_chart">
-        <div class="chart-title">Percentage of Job Vacancies</div>
-        <p>First graph involves the use of annotations</p>
-    </div>
+    <main>
+        <section class="chart-section">
+            <h2>Chart Overview</h2>
+            <div class="chart-wrapper">
+                <div id="pie_chart">
+                    <p> heloooooooooooooooooo</p>
+                </div>
+                <div id="stack_chart"></div>
+            </div>
+        </section>
 
-    <div class="chart-container" id="stack_chart">
-        <div class="chart-title">Industry Trends Over Time</div>
-        <p>Second graph involves the use of legend selection</p>
-    </div>
+        <section class="map-section">
+            <h2>Job Vacancy Map</h2>
+            <div id="map_chart"></div>
+            <p>For the map, we are able to capture the distribution of job vacancies across different regions.</p>
+        </section>
+
+        <section class="bar-chart-section">
+            <h2>Industry Trends</h2>
+            <div class = "chart-wrapper">
+                <div id = "multi_chart"></div>
+                <div id = "bar_chart"></div>
+            </div>
+
+            <p>This chart illustrates the trends in job vacancies by industry over time.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Adam Loh. All rights reserved.</p>
+    </footer>
 
     <script src="vega_lite.js"></script>
 </body>
-
 </html>
