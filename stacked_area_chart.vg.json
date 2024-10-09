@@ -5,9 +5,9 @@
   "data": {
     "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/IndustryStackedLine.csv"
   },
-  "selection":{
+  "selection": {
     "industry_highlight": {
-      "type": "multi", 
+      "type": "multi",
       "fields": ["Industry "],
       "bind": "legend"
     }
@@ -21,10 +21,10 @@
     "y": {
       "aggregate": "sum", "field": "Value"
     },
-    "color": { 
+    "color": {
       "field": "Industry ",
       "scale": {"scheme": "category10"}
-      }, 
+    },
     "opacity": {
       "condition": {"selection": "industry_highlight", "value": 1},
       "value": 0.6

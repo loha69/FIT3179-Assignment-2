@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300,
+    "height": 300,
+    "data": {
+      "url": "data/States and Territory Map.csv"
+    }, 
+    
+    "mark": {
+    "type": "line",
+    "point": {
+      "filled": false,
+      "fill": "white"
+    }
+  },
+  "encoding": {
+    "x": {"timeUnit": "yearmonth", "field": "date"},
+    "y": {"field": "Value", "type": "quantitative"},
+    "color": {"field": "State", "type": "nominal"},
+    "tooltip": [
+      {"field": "State", "type": "nominal", "title": "State"},
+      {"field": "Value", "type": "quantitative", "title": "Job Vacancies (000)"},
+      {"field": "date", "type": "temporal", "title": "Date"}
+    ]
+  }
+}

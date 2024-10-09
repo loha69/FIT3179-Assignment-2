@@ -1,67 +1,75 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Job Vacancies in Australia 2019-2024",
-    "width": 300,
-    "height": 300,
-    "projection": {"type": "mercator"},
-    "data": {
-      "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/STE_2016_AUST.json",
-      "format": {"type": "topojson", "feature": "STE_2016_AUST"}
-    },
-    "params": [
-      {
-        "name": "Selected_Year",
-        "value": 2019,
-        "bind": {
-          "input": "range",
-          "min": 2019,
-          "max": 2024,
-          "step": 1,
-          "name": "Select Year: "
-        }
-      },
-      {
-        "name": "Selected_Month",
-        "value": 2,
-        "bind": {
-          "input": "range",
-          "min": 2,
-          "max": 12,
-          "step": 3,
-          "name": "Select Month: "
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Job Vacancies in Australia 2019-2024",
+  "width": 300,
+  "height": 300,
+  "projection": {"type": "mercator"},
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/States%20and%20Territory%20Map.csv"
+  },
+  
+  "params": [
+    {
+      "name": "Selected_Year",
+      "value": 2019,
+      "bind": {
+        "input": "range",
+        "min": 2019,
+        "max": 2024,
+        "step": 1,
+        "name": "Select Year: "
       }
-    ],
-    "transform": [
+    },
+    {
+      "name": "Selected_Month",
+      "value": 2,
+      "bind": {
+        "input": "range",
+        "min": 2,
+        "max": 12,
+        "step": 3,
+        "name": "Select Month: "
+      }
+    }
+  ],
+  
+  "transform": [
+    {
+      "lookup": "State",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/STE_2016_AUST.json",
+          "format": {
+            "type": "topojson",
+            "feature": "STE_2016_AUST"
+          }
+        },
+        "key": "properties.STE_NAME16"
+      }, 
+      "as": "geo"
+    },
+    {"filter": "datum.year == Selected_Year && datum.month == Selected_Month"}
+  ],
+  
+  "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
+  "encoding": {
+    "shape":{"field": "geo", "type": "geojson"},
+    "color": {
+      "field": "Value",
+      "type": "quantitative",
+      "scale": {"scheme": "greens"},
+      "legend": {"title": "Job Vacancies (000)"}
+    },
+    "tooltip": [
+      {"field": "State", "type": "nominal", "title": "State"},
       {
-        "lookup": "properties.STE_NAME16",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/States%20and%20Territory%20Map.csv"
-          },
-          "key": "State",
-          "fields": ["Value", "month", "year"]
-        }
-      },
-      {"filter": "datum.year == Selected_Year && datum.month == Selected_Month"}
-    ],
-    "mark": {"type": "geoshape"},
-    "encoding": {
-      "color": {
         "field": "Value",
         "type": "quantitative",
-        "scale": {"scheme": "greens"},
-        "legend": {"title": "Job Vacancies (000)"}
+        "title": "Job Vacancies (000)"
       },
-      "tooltip": [
-        {"field": "properties.STE_NAME16", "type": "nominal", "title": "State"},
-        {
-          "field": "Value",
-          "type": "quantitative",
-          "title": "Job Vacancies (000)"
-        },
-        {"field": "month", "type": "ordinal", "title": "Month"},
-        {"field": "year ", "type": "ordinal", "title": "Year"}
-      ]
-    }
+      {"field": "month", "type": "ordinal", "title": "Month"},
+      {"field": "year", "type": "ordinal", "title": "Year"}
+    ]
   }
+}
