@@ -1,10 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Job Vacancies in Australia 2019-2024",
-  "width": 300,
-  "height": 300,
   "projection": {"type": "mercator"},
-  
+  "height": 500,
+  "width": 600,
   "data": {
     "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/States%20and%20Territory%20Map.csv"
   },
@@ -23,7 +21,7 @@
     },
     {
       "name": "Selected_Month",
-      "value": 2,
+      "value": 8,
       "bind": {
         "input": "range",
         "min": 2,

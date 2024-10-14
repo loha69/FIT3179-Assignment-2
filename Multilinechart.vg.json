@@ -1,26 +1,38 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 300,
-    "height": 300,
-    "data": {
-      "url": "data/States and Territory Map.csv"
-    }, 
-    
-    "mark": {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 485,
+  "data": {
+    "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/States%20and%20Territory%20Map.csv"
+  },
+  "mark": {
     "type": "line",
-    "point": {
-      "filled": false,
-      "fill": "white"
+    "point": true
+  },
+  "selection": {
+    "state_highlight": {
+      "type": "multi",
+      "fields": ["State"],
+      "bind": "legend"
     }
   },
   "encoding": {
-    "x": {"timeUnit": "yearmonth", "field": "date"},
-    "y": {"field": "Value", "type": "quantitative"},
-    "color": {"field": "State", "type": "nominal"},
+    "x": {"timeUnit": "yearmonth", "field": "date", "title": "Date"},
+    "y": {"field": "Value", "type": "quantitative", "title": "Job Vacancies"},
+    "color": {
+      "field": "State",
+      "type": "nominal",
+      "scale": {
+        "range": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
+      } 
+    },
     "tooltip": [
       {"field": "State", "type": "nominal", "title": "State"},
       {"field": "Value", "type": "quantitative", "title": "Job Vacancies (000)"},
       {"field": "date", "type": "temporal", "title": "Date"}
-    ]
+    ],
+    "opacity": {
+      "condition": {"selection": "state_highlight", "value": 1},
+      "value": 0.2
+    }
   }
 }
