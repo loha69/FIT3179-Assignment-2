@@ -1,169 +1,169 @@
-State,Value,month,year,date
-New South Wales,72800,8,2019,2019-08-01
-Victoria,61200,8,2019,2019-08-01
-Queensland,39100,8,2019,2019-08-01
-South Australia,11300,8,2019,2019-08-01
-Western Australia,26400,8,2019,2019-08-01
-Tasmania,3600,8,2019,2019-08-01
-Northern Territory,4300,8,2019,2019-08-01
-Australian Capital Territory,7600,8,2019,2019-08-01
-New South Wales,80200,11,2019,2019-11-01
-Victoria,60100,11,2019,2019-11-01
-Queensland,39200,11,2019,2019-11-01
-South Australia,11400,11,2019,2019-11-01
-Western Australia,25700,11,2019,2019-11-01
-Tasmania,3600,11,2019,2019-11-01
-Northern Territory,3500,11,2019,2019-11-01
-Australian Capital Territory,7700,11,2019,2019-11-01
-New South Wales,79300,2,2020,2020-02-01
-Victoria,59700,2,2020,2020-02-01
-Queensland,38400,2,2020,2020-02-01
-South Australia,11700,2,2020,2020-02-01
-Western Australia,27600,2,2020,2020-02-01
-Tasmania,3400,2,2020,2020-02-01
-Northern Territory,2900,2,2020,2020-02-01
-Australian Capital Territory,6600,2,2020,2020-02-01
-New South Wales,39800,5,2020,2020-05-01
-Victoria,28700,5,2020,2020-05-01
-Queensland,25200,5,2020,2020-05-01
-South Australia,6800,5,2020,2020-05-01
-Western Australia,16800,5,2020,2020-05-01
-Tasmania,1900,5,2020,2020-05-01
-Northern Territory,1700,5,2020,2020-05-01
-Australian Capital Territory,3600,5,2020,2020-05-01
-New South Wales,62200,8,2020,2020-08-01
-Victoria,45800,8,2020,2020-08-01
-Queensland,42100,8,2020,2020-08-01
-South Australia,12500,8,2020,2020-08-01
-Western Australia,32200,8,2020,2020-08-01
-Tasmania,3400,8,2020,2020-08-01
-Northern Territory,4200,8,2020,2020-08-01
-Australian Capital Territory,5600,8,2020,2020-08-01
-New South Wales,82700,11,2020,2020-11-01
-Victoria,58400,11,2020,2020-11-01
-Queensland,47900,11,2020,2020-11-01
-South Australia,15600,11,2020,2020-11-01
-Western Australia,37400,11,2020,2020-11-01
-Tasmania,5100,11,2020,2020-11-01
-Northern Territory,4200,11,2020,2020-11-01
-Australian Capital Territory,7900,11,2020,2020-11-01
-New South Wales,94000,2,2021,2021-02-01
-Victoria,65600,2,2021,2021-02-01
-Queensland,53500,2,2021,2021-02-01
-South Australia,19300,2,2021,2021-02-01
-Western Australia,40000,2,2021,2021-02-01
-Tasmania,5700,2,2021,2021-02-01
-Northern Territory,4800,2,2021,2021-02-01
-Australian Capital Territory,8200,2,2021,2021-02-01
-New South Wales,112800,5,2021,2021-05-01
-Victoria,87600,5,2021,2021-05-01
-Queensland,67200,5,2021,2021-05-01
-South Australia,21300,5,2021,2021-05-01
-Western Australia,46200,5,2021,2021-05-01
-Tasmania,6500,5,2021,2021-05-01
-Northern Territory,5000,5,2021,2021-05-01
-Australian Capital Territory,8800,5,2021,2021-05-01
-New South Wales,95200,8,2021,2021-08-01
-Victoria,81300,8,2021,2021-08-01
-Queensland,70600,8,2021,2021-08-01
-South Australia,18000,8,2021,2021-08-01
-Western Australia,52100,8,2021,2021-08-01
-Tasmania,5800,8,2021,2021-08-01
-Northern Territory,6100,8,2021,2021-08-01
-Australian Capital Territory,8000,8,2021,2021-08-01
-New South Wales,120900,11,2021,2021-11-01
-Victoria,106000,11,2021,2021-11-01
-Queensland,70300,11,2021,2021-11-01
-South Australia,23700,11,2021,2021-11-01
-Western Australia,60800,11,2021,2021-11-01
-Tasmania,6800,11,2021,2021-11-01
-Northern Territory,6200,11,2021,2021-11-01
-Australian Capital Territory,9900,11,2021,2021-11-01
-New South Wales,130000,2,2022,2022-02-01
-Victoria,101800,2,2022,2022-02-01
-Queensland,76900,2,2022,2022-02-01
-South Australia,24500,2,2022,2022-02-01
-Western Australia,66500,2,2022,2022-02-01
-Tasmania,7300,2,2022,2022-02-01
-Northern Territory,8500,2,2022,2022-02-01
-Australian Capital Territory,11500,2,2022,2022-02-01
-New South Wales,145100,5,2022,2022-05-01
-Victoria,120100,5,2022,2022-05-01
-Queensland,78600,5,2022,2022-05-01
-South Australia,24500,5,2022,2022-05-01
-Western Australia,65200,5,2022,2022-05-01
-Tasmania,7500,5,2022,2022-05-01
-Northern Territory,7700,5,2022,2022-05-01
-Australian Capital Territory,12300,5,2022,2022-05-01
-New South Wales,150800,8,2022,2022-08-01
-Victoria,126600,8,2022,2022-08-01
-Queensland,85800,8,2022,2022-08-01
-South Australia,25200,8,2022,2022-08-01
-Western Australia,60700,8,2022,2022-08-01
-Tasmania,6300,8,2022,2022-08-01
-Northern Territory,7600,8,2022,2022-08-01
-Australian Capital Territory,12000,8,2022,2022-08-01
-New South Wales,133000,11,2022,2022-11-01
-Victoria,117700,11,2022,2022-11-01
-Queensland,85700,11,2022,2022-11-01
-South Australia,25300,11,2022,2022-11-01
-Western Australia,61900,11,2022,2022-11-01
-Tasmania,7100,11,2022,2022-11-01
-Northern Territory,7500,11,2022,2022-11-01
-Australian Capital Territory,12200,11,2022,2022-11-01
-New South Wales,145000,2,2023,2023-02-01
-Victoria,110800,2,2023,2023-02-01
-Queensland,85000,2,2023,2023-02-01
-South Australia,22900,2,2023,2023-02-01
-Western Australia,52800,2,2023,2023-02-01
-Tasmania,7700,2,2023,2023-02-01
-Northern Territory,6900,2,2023,2023-02-01
-Australian Capital Territory,11500,2,2023,2023-02-01
-New South Wales,128100,5,2023,2023-05-01
-Victoria,105100,5,2023,2023-05-01
-Queensland,77100,5,2023,2023-05-01
-South Australia,24900,5,2023,2023-05-01
-Western Australia,54900,5,2023,2023-05-01
-Tasmania,7100,5,2023,2023-05-01
-Northern Territory,6300,5,2023,2023-05-01
-Australian Capital Territory,11400,5,2023,2023-05-01
-New South Wales,122400,8,2023,2023-08-01
-Victoria,99600,8,2023,2023-08-01
-Queensland,80000,8,2023,2023-08-01
-South Australia,24700,8,2023,2023-08-01
-Western Australia,52500,8,2023,2023-08-01
-Tasmania,6800,8,2023,2023-08-01
-Northern Territory,6000,8,2023,2023-08-01
-Australian Capital Territory,10400,8,2023,2023-08-01
-New South Wales,119500,11,2023,2023-11-01
-Victoria,94900,11,2023,2023-11-01
-Queensland,78200,11,2023,2023-11-01
-South Australia,24000,11,2023,2023-11-01
-Western Australia,49500,11,2023,2023-11-01
-Tasmania,6500,11,2023,2023-11-01
-Northern Territory,5200,11,2023,2023-11-01
-Australian Capital Territory,8600,11,2023,2023-11-01
-New South Wales,107600,2,2024,2024-02-01
-Victoria,91500,2,2024,2024-02-01
-Queensland,69500,2,2024,2024-02-01
-South Australia,25900,2,2024,2024-02-01
-Western Australia,47800,2,2024,2024-02-01
-Tasmania,6800,2,2024,2024-02-01
-Northern Territory,4800,2,2024,2024-02-01
-Australian Capital Territory,8700,2,2024,2024-02-01
-New South Wales,103500,5,2024,2024-05-01
-Victoria,87400,5,2024,2024-05-01
-Queensland,67000,5,2024,2024-05-01
-South Australia,21500,5,2024,2024-05-01
-Western Australia,42000,5,2024,2024-05-01
-Tasmania,6400,5,2024,2024-05-01
-Northern Territory,5500,5,2024,2024-05-01
-Australian Capital Territory,8300,5,2024,2024-05-01
-New South Wales,101400,8,2024,2024-08-01
-Victoria,82800,8,2024,2024-08-01
-Queensland,67500,8,2024,2024-08-01
-South Australia,19500,8,2024,2024-08-01
-Western Australia,41500,8,2024,2024-08-01
-Tasmania,6100,8,2024,2024-08-01
-Northern Territory,5100,8,2024,2024-08-01
-Australian Capital Territory,7900,8,2024,2024-08-01
+State,Value,month,year,date,,
+New South Wales,72800,8,2019,2019-08-01,,
+Victoria,61200,8,2019,2019-08-01,,
+Queensland,39100,8,2019,2019-08-01,,
+South Australia,11300,8,2019,2019-08-01,,
+Western Australia,26400,8,2019,2019-08-01,,
+Tasmania,3600,8,2019,2019-08-01,,
+Northern Territory,4300,8,2019,2019-08-01,,
+Australian Capital Territory,7600,8,2019,2019-08-01,,
+New South Wales,80200,11,2019,2019-11-01,,
+Victoria,60100,11,2019,2019-11-01,,
+Queensland,39200,11,2019,2019-11-01,,
+South Australia,11400,11,2019,2019-11-01,,
+Western Australia,25700,11,2019,2019-11-01,,
+Tasmania,3600,11,2019,2019-11-01,,
+Northern Territory,3500,11,2019,2019-11-01,,
+Australian Capital Territory,7700,11,2019,2019-11-01,,
+New South Wales,79300,2,2020,2020-02-01,,
+Victoria,59700,2,2020,2020-02-01,,
+Queensland,38400,2,2020,2020-02-01,,
+South Australia,11700,2,2020,2020-02-01,,
+Western Australia,27600,2,2020,2020-02-01,,
+Tasmania,3400,2,2020,2020-02-01,,
+Northern Territory,2900,2,2020,2020-02-01,,
+Australian Capital Territory,6600,2,2020,2020-02-01,,
+New South Wales,39800,5,2020,2020-05-01,,
+Victoria,28700,5,2020,2020-05-01,,
+Queensland,25200,5,2020,2020-05-01,,
+South Australia,6800,5,2020,2020-05-01,,
+Western Australia,16800,5,2020,2020-05-01,,
+Tasmania,1900,5,2020,2020-05-01,,
+Northern Territory,1700,5,2020,2020-05-01,,
+Australian Capital Territory,3600,5,2020,2020-05-01,,
+New South Wales,62200,8,2020,2020-08-01,,
+Victoria,45800,8,2020,2020-08-01,,
+Queensland,42100,8,2020,2020-08-01,,
+South Australia,12500,8,2020,2020-08-01,,
+Western Australia,32200,8,2020,2020-08-01,,
+Tasmania,3400,8,2020,2020-08-01,,
+Northern Territory,4200,8,2020,2020-08-01,,
+Australian Capital Territory,5600,8,2020,2020-08-01,,
+New South Wales,82700,11,2020,2020-11-01,,
+Victoria,58400,11,2020,2020-11-01,,
+Queensland,47900,11,2020,2020-11-01,,
+South Australia,15600,11,2020,2020-11-01,,
+Western Australia,37400,11,2020,2020-11-01,,
+Tasmania,5100,11,2020,2020-11-01,,
+Northern Territory,4200,11,2020,2020-11-01,,
+Australian Capital Territory,7900,11,2020,2020-11-01,,
+New South Wales,94000,2,2021,2021-02-01,,
+Victoria,65600,2,2021,2021-02-01,,
+Queensland,53500,2,2021,2021-02-01,,
+South Australia,19300,2,2021,2021-02-01,,
+Western Australia,40000,2,2021,2021-02-01,,
+Tasmania,5700,2,2021,2021-02-01,,
+Northern Territory,4800,2,2021,2021-02-01,,
+Australian Capital Territory,8200,2,2021,2021-02-01,,
+New South Wales,112800,5,2021,2021-05-01,,
+Victoria,87600,5,2021,2021-05-01,,
+Queensland,67200,5,2021,2021-05-01,,
+South Australia,21300,5,2021,2021-05-01,,
+Western Australia,46200,5,2021,2021-05-01,,
+Tasmania,6500,5,2021,2021-05-01,,
+Northern Territory,5000,5,2021,2021-05-01,,
+Australian Capital Territory,8800,5,2021,2021-05-01,,
+New South Wales,95200,8,2021,2021-08-01,,
+Victoria,81300,8,2021,2021-08-01,,
+Queensland,70600,8,2021,2021-08-01,,
+South Australia,18000,8,2021,2021-08-01,,
+Western Australia,52100,8,2021,2021-08-01,,
+Tasmania,5800,8,2021,2021-08-01,,
+Northern Territory,6100,8,2021,2021-08-01,,
+Australian Capital Territory,8000,8,2021,2021-08-01,,
+New South Wales,120900,11,2021,2021-11-01,,
+Victoria,106000,11,2021,2021-11-01,,
+Queensland,70300,11,2021,2021-11-01,,
+South Australia,23700,11,2021,2021-11-01,,
+Western Australia,60800,11,2021,2021-11-01,,
+Tasmania,6800,11,2021,2021-11-01,,
+Northern Territory,6200,11,2021,2021-11-01,,
+Australian Capital Territory,9900,11,2021,2021-11-01,,
+New South Wales,130000,2,2022,2022-02-01,,
+Victoria,101800,2,2022,2022-02-01,,
+Queensland,76900,2,2022,2022-02-01,,
+South Australia,24500,2,2022,2022-02-01,,
+Western Australia,66500,2,2022,2022-02-01,,
+Tasmania,7300,2,2022,2022-02-01,,
+Northern Territory,8500,2,2022,2022-02-01,,
+Australian Capital Territory,11500,2,2022,2022-02-01,,
+New South Wales,145100,5,2022,2022-05-01,,
+Victoria,120100,5,2022,2022-05-01,,
+Queensland,78600,5,2022,2022-05-01,,
+South Australia,24500,5,2022,2022-05-01,,
+Western Australia,65200,5,2022,2022-05-01,,
+Tasmania,7500,5,2022,2022-05-01,,
+Northern Territory,7700,5,2022,2022-05-01,,
+Australian Capital Territory,12300,5,2022,2022-05-01,,
+New South Wales,150800,8,2022,2022-08-01,,
+Victoria,126600,8,2022,2022-08-01,,
+Queensland,85800,8,2022,2022-08-01,,
+South Australia,25200,8,2022,2022-08-01,,
+Western Australia,60700,8,2022,2022-08-01,,
+Tasmania,6300,8,2022,2022-08-01,,
+Northern Territory,7600,8,2022,2022-08-01,,
+Australian Capital Territory,12000,8,2022,2022-08-01,,
+New South Wales,133000,11,2022,2022-11-01,,
+Victoria,117700,11,2022,2022-11-01,,
+Queensland,85700,11,2022,2022-11-01,,
+South Australia,25300,11,2022,2022-11-01,,
+Western Australia,61900,11,2022,2022-11-01,,
+Tasmania,7100,11,2022,2022-11-01,,
+Northern Territory,7500,11,2022,2022-11-01,,
+Australian Capital Territory,12200,11,2022,2022-11-01,,
+New South Wales,145000,2,2023,2023-02-01,,
+Victoria,110800,2,2023,2023-02-01,,
+Queensland,85000,2,2023,2023-02-01,,
+South Australia,22900,2,2023,2023-02-01,,
+Western Australia,52800,2,2023,2023-02-01,,
+Tasmania,7700,2,2023,2023-02-01,,
+Northern Territory,6900,2,2023,2023-02-01,,
+Australian Capital Territory,11500,2,2023,2023-02-01,,
+New South Wales,128100,5,2023,2023-05-01,,
+Victoria,105100,5,2023,2023-05-01,,
+Queensland,77100,5,2023,2023-05-01,,
+South Australia,24900,5,2023,2023-05-01,,
+Western Australia,54900,5,2023,2023-05-01,,
+Tasmania,7100,5,2023,2023-05-01,,
+Northern Territory,6300,5,2023,2023-05-01,,
+Australian Capital Territory,11400,5,2023,2023-05-01,,
+New South Wales,122400,8,2023,2023-08-01,,
+Victoria,99600,8,2023,2023-08-01,,
+Queensland,80000,8,2023,2023-08-01,,
+South Australia,24700,8,2023,2023-08-01,,
+Western Australia,52500,8,2023,2023-08-01,,
+Tasmania,6800,8,2023,2023-08-01,,
+Northern Territory,6000,8,2023,2023-08-01,,
+Australian Capital Territory,10400,8,2023,2023-08-01,,
+New South Wales,119500,11,2023,2023-11-01,,
+Victoria,94900,11,2023,2023-11-01,,
+Queensland,78200,11,2023,2023-11-01,,
+South Australia,24000,11,2023,2023-11-01,,
+Western Australia,49500,11,2023,2023-11-01,,
+Tasmania,6500,11,2023,2023-11-01,,
+Northern Territory,5200,11,2023,2023-11-01,,
+Australian Capital Territory,8600,11,2023,2023-11-01,,
+New South Wales,107600,2,2024,2024-02-01,,
+Victoria,91500,2,2024,2024-02-01,,
+Queensland,69500,2,2024,2024-02-01,,
+South Australia,25900,2,2024,2024-02-01,,
+Western Australia,47800,2,2024,2024-02-01,,
+Tasmania,6800,2,2024,2024-02-01,,
+Northern Territory,4800,2,2024,2024-02-01,,
+Australian Capital Territory,8700,2,2024,2024-02-01,,
+New South Wales,103500,5,2024,2024-05-01,,
+Victoria,87400,5,2024,2024-05-01,,
+Queensland,67000,5,2024,2024-05-01,,
+South Australia,21500,5,2024,2024-05-01,,
+Western Australia,42000,5,2024,2024-05-01,,
+Tasmania,6400,5,2024,2024-05-01,,
+Northern Territory,5500,5,2024,2024-05-01,,
+Australian Capital Territory,8300,5,2024,2024-05-01,,
+New South Wales,101400,8,2024,2024-08-01,,
+Victoria,82800,8,2024,2024-08-01,,
+Queensland,67500,8,2024,2024-08-01,,
+South Australia,19500,8,2024,2024-08-01,,
+Western Australia,41500,8,2024,2024-08-01,,
+Tasmania,6100,8,2024,2024-08-01,,
+Northern Territory,5100,8,2024,2024-08-01,,
+Australian Capital Territory,7900,8,2024,2024-08-01,,
