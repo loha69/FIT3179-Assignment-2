@@ -1,3 +1,17 @@
+/* Red Text */
+.red_text {
+    color: red;
+}
+
+.green_text {
+    color: green;
+}
+
+#small_font {
+    font-size: 12px;
+    font-style: italic;
+}
+
 /* General page styling */
 body {
     max-width: 1200; /* Sets the maximum width of the body content to 1200x*/
