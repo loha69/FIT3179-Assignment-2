@@ -5,8 +5,8 @@
   },
   "vconcat": [
     {
-      "width": 700, 
-      "height": 700,
+      "width": 500, 
+      "height": 500,
       "transform": [
         {
           "lookup": "State",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "width": 700,
+      "width": 500,
       "height": 60,
       "mark": "line",
       "title": "Use this line chart to filter out data based on time",
@@ -59,7 +59,7 @@
         "x": {
           "field": "date",
           "timeUnit": "yearmonth",
-          "axis": {"title": "Date", "format": "%Y"}
+          "axis": {"title": "Date", "format": "%Y-%m"}
         },
         "y": {
           "field": "Value",

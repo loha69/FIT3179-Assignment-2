@@ -12,7 +12,7 @@
                 "color": "#000"
             },
             "height": 400,
-            "width": 300,
+            "width": 350,
             "selection": {
                 "industry_highlight": {
                     "type": "multi", 
@@ -63,9 +63,9 @@
                 "anchor": "start",
                 "color": "#000"
             },
-            "width": 300, 
-            "height": 300, 
-            "mark": {"type": "arc", "innerRadius": 100},
+            "width": 400, 
+            "height": 400, 
+            "mark": {"type": "arc", "innerRadius": 125},
             "encoding": {
                 "theta": {"field": "Value", "type": "quantitative", "stack": "normalize"},
                 "color": {
