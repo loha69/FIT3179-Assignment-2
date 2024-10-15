@@ -8,7 +8,7 @@
             "title": {
                 "text": "Industry Change from Before COVID-19 (%)",
                 "fontSize": 18,
-                "anchor": "start",
+                "anchor": "middle",
                 "color": "#000"
             },
             "height": 400,
@@ -48,7 +48,7 @@
                 },
                 "tooltip": [
                     {"field": "Industry", "type": "nominal", "title": "Industry"},
-                    {"field": "Change from before COVID-19 (%)", "type": "quantitative", "title": "Percentage Change (%)"}
+                    {"field": "% Change from before COVID-19 (2020-05-01)", "type": "quantitative", "title": "Percentage Change (%)"}
                 ],
                 "opacity": {
                     "condition": {"selection": "industry_highlight", "value": 1},
@@ -60,7 +60,7 @@
             "title": {
                 "text": "Proportion of Job Vacancies by Industry (2024)",
                 "fontSize": 18,
-                "anchor": "start",
+                "anchor": "middle",
                 "color": "#000"
             },
             "width": 400, 

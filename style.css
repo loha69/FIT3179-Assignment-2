@@ -1,14 +1,16 @@
 /* General page styling */
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    max-width: 1200; /* Sets the maximum width of the body content to 1200x*/
+    display: flex; /* Defines the body as a flex container, which allows for flexible layout options for its children. */
+    flex-direction: column; /* Aligns the flex items (content) in a column, stacking them vertically. */
+    align-items: center; /* Centers the flex items (content) horizontally within the body container. */
+    justify-content: center; /* Centers the flex items (content) vertically, ensuring equal spacing around them. */
+    min-height: 100vh; /* Sets the minimum height of the body to be 100% of the viewport height. Ensures that the body will fill the full screen height. */
     font-family: 'Times New Roman', Times, serif;
-    padding: 20px; /* Padding added to avoid text touching the edge */
-    box-sizing: border-box;
+    padding: 20px; /* Adds padding of 20 pixels on all sides of the body*/
+    box-sizing: border-box; /* Ensures that padding and borders are included in the element's total width and height, preventing overflow issues. */
+    border-radius: 10px; /* Rounds the corners of the body’s border with a 10-pixel radius, creating smooth edges. */
+    border: 3px solid #333; /* Adds a 3-pixel solid border with a dark gray color (#333) around the body. */
 }
 
 /* Text alignment for specific elements */
