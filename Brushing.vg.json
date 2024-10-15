@@ -5,8 +5,8 @@
   },
   "vconcat": [
     {
-      "width": 500, 
-      "height": 500,
+      "width": 700, 
+      "height": 700,
       "transform": [
         {
           "lookup": "State",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "width": 500,
+      "width": 700,
       "height": 60,
       "mark": "line",
       "title": "Use this line chart to filter out data based on time",
