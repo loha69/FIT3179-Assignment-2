@@ -46,8 +46,11 @@
     },
     {
       "width": 500,
-      "height": 60,
-      "mark": "line",
+      "height": 150,
+      "mark": {
+        "type": "line",
+        "point": true
+      },
       "title": "Use this line chart to filter out data based on time",
       "params": [
         {
