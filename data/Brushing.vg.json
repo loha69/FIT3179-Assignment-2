@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/States%20and%20Territory%20Map.csv"
+  },
+  "vconcat": [
+    {
+      "width": 400, 
+      "height": 400,
+      "transform": [
+        {
+          "lookup": "State",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/STE_2016_AUST.json",
+              "format": {
+                "type": "topojson",
+                "feature": "STE_2016_AUST"
+              }
+            },
+            "key": "properties.STE_NAME16"
+          }, 
+          "as": "geo"
+        }, 
+        {"filter": {"param": "time_brush"}}
+      ],
+      
+      "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
+      "encoding": {
+        "shape":{"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "Value",
+          "type": "quantitative",
+          "scale": {"scheme": "greens"},
+          "legend": {"title": "Job Vacancies"}
+        },
+        "tooltip": [
+          {"field": "State", "type": "nominal", "title": "State"},
+          {
+            "field": "Value",
+            "type": "quantitative",
+            "title": "Job Vacancies"
+          },
+          {"field": "date", "type": "temporal", "title": "date"}        ]
+      }
+    },
+    {
+      "width": 400,
+      "height": 60,
+      "mark": "line",
+      "title": "Use this line chart to filter out data based on time",
+      "params": [
+        {
+          "name": "time_brush",
+          "select": {"type": "interval", "encodings": ["x"]}
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "date",
+          "timeUnit": "yearmonth",
+          "axis": {"title": "Date", "format": "%Y"}
+        },
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "axis": {"title": "Job Vacancies"}
+        },
+        "color": {"field": "State", "type": "nominal"},
+        "tooltip": [
+          {"field": "State", "type": "nominal", "title": "State"},
+          {"field": "Value", "type": "quantitative", "title": "Job Vacancies"},
+          {"field": "date", "type": "temporal", "title": "Date"}
+        ]
+      }
+    }
+  ]
+}

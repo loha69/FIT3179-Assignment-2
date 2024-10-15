@@ -1,0 +1,89 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/Combinedbarpie.csv"
+    },
+    "hconcat": [
+        {   
+            "title": {
+                "text": "Industry Change from Before COVID-19 (%)",
+                "fontSize": 18,
+                "anchor": "start",
+                "color": "#000"
+            },
+            "height": 400,
+            "width": 300,
+            "selection": {
+                "industry_highlight": {
+                    "type": "multi", 
+                    "fields": ["Industry"],  
+                    "bind": "legend"
+                }
+            },
+            "mark": "bar",
+            "encoding": {
+                "y": {
+                    "field": "Industry",
+                    "type": "nominal",
+                    "sort": "-x",
+                    "axis": {
+                        "title": null,
+                        "labelFontSize": 12,
+                        "titleFontSize": 14
+                    }
+                },
+                "x": {
+                    "field": "Change from before COVID-19 (%)",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "Change from before COVID-19 (%)",
+                        "labelFontSize": 12,
+                        "titleFontSize": 14
+                    }
+                },
+                "color": {
+                    "field": "Industry",
+                    "type": "nominal",
+                    "scale": {"scheme": "tableau20"}
+                },
+                "tooltip": [
+                    {"field": "Industry", "type": "nominal", "title": "Industry"},
+                    {"field": "Change from before COVID-19 (%)", "type": "quantitative", "title": "Percentage Change (%)"}
+                ],
+                "opacity": {
+                    "condition": {"selection": "industry_highlight", "value": 1},
+                    "value": 0.3
+                }
+            }
+        },
+        {
+            "title": {
+                "text": "Proportion of Job Vacancies by Industry (2024)",
+                "fontSize": 18,
+                "anchor": "start",
+                "color": "#000"
+            },
+            "width": 300, 
+            "height": 300, 
+            "mark": {"type": "arc", "innerRadius": 100},
+            "encoding": {
+                "theta": {"field": "Value", "type": "quantitative", "stack": "normalize"},
+                "color": {
+                    "field": "Industry",
+                    "type": "nominal",
+                    "scale": {"scheme": "tableau20"},
+                    "legend": {"title": "Industry"}
+                },
+                "tooltip": [
+                    {"field": "Industry", "type": "nominal", "title": "Industry"},
+                    {"field": "Value", "type": "quantitative", "title": "Percentage (%)"},
+                    {"field": "Job Vacancies", "type": "quantitative", "title": "No of Job Vacancies"}
+                ],
+                "opacity": {
+                    "condition": {"selection": "industry_highlight", "value": 1},
+                    "value": 0.6
+                }
+            }
+        }
+    ]
+}
