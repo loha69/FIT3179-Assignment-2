@@ -10,55 +10,85 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 
-    <title id = "c-align">FIT3179 - Adam Loh Job Vacancies HTML Dashboard</title>
+    <title id="c-align">FIT3179 - Adam Loh Job Vacancies HTML Dashboard</title>
+
+    <style>
+        /* Center and limit the width of content */
+        header, footer, #Trendline_chart, .additional-text {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+    </style>
 </head>
 
 <body>
     <header>
-        <h1 id = "c-align">Australia's Job Vacancy Trends and Analysis</h1>
+        <h1 id="c-align">Australia's Job Vacancy Trends and Analysis</h1>
         <p id="c-align">
-            In a rapidly changing economic landscape, understanding employment trends is 
-            more crucial than ever. This powerful tool provides real-time 
-            insights into job opportunities across various industries and regions, empowering 
-            policymakers, businesses, and job seekers to make informed decisions. 
-            Discover emerging sectors, identify skill shortages, and track economic shifts—all 
-            in one place! Whether you are looking to hire, seek employment, or understand market dynamics, 
-            this dashboard is your go-to resource for fostering growth and building a stronger workforce in Australia. 
+            My visualization dashboard aims to provide <b>a comprehensive overview of job vacancy trends across Australia </b>. 
+            By analyzing <b>data from various states and industries</b>, the dashboard offers insights into how <b>employment opportunities have 
+            evolved</b>. This tool is designed <b>to help users better understand the current Australian job 
+            market</b>, highlighting <b>which sectors are growing</b> and where potential skill shortages may exist. Through this analysis, viewers 
+            can <b>gain a clearer picture of the nation's employment landscape</b> and<b>make informed decisions based on these trends</b>.
         </p>
     </header>
+    
+    <!-- First Section -->
+    <h2>Trend of Job Vacancies from Nov 2009 to Aug 2024</h2>
+    
+    <div id="Trendline_chart">
+        <!-- The chart will be embedded here -->
+    </div>
 
-    <main>
-        <section class="chart-section">
-            <h2>Chart Overview</h2>
-            <div class="chart-wrapper">
-                <div id="pie_chart">
-                    <p> heloooooooooooooooooo</p>
-                </div>
-                <div id="stack_chart"></div>
-            </div>
-        </section>
+    <div class = "additional-text">
+        <p>
+            The line graph shows the trend in job vacancies across Australia from November 2009 to August 2024. Initially, from 2009 to 2012, there was a steady rise in job vacancies, 
+            indicating recovery after the global financial crisis. 
+        </p>
+        
+        <p>
+            From 2012 to 2014, the trend flattened, reflecting a period of economic adjustment. This was followed by consistent growth between 2015 and 2019, signaling a robust job market and economic expansion. 
+        </p>
+        
+        <p>
+            The impact of the COVID-19 pandemic is evident in a sharp decline around early 2020, but a strong recovery began later that year, peaking in late 2022. 
+            However, from early 2023 onwards, job vacancies have been declining, suggesting possible economic challenges or shifts in the job market. 
+        </p>
+    </div>
+    
+    <!-- Second Section -->
+    <h2>Tracking Job Vacancies Across Australian States: Aug 2019 - Aug 2024</h2>
+    <div class="flex-container">
+        <div id = "brushing_chart">
+        </div>
+        <div class="additional-text">
+            <h3>Understanding the Data</h3>
+            <p>
+                This section highlights the job vacancy trends across various states in Australia from August 2019 to August 2024. 
+                Use the map to view regional job opportunities and the multiline chart below to see trends over time for each state. 
+                Identify patterns, discover emerging job markets, and gain valuable insights to support policy-making, business strategies, and career decisions.
+            </p>
+        </div>
+    </div>
 
-        <section class="map-section">
-            <h2>Job Vacancy Map</h2>
-            <div id="map_chart"></div>
-            <p>For the map, we are able to capture the distribution of job vacancies across different regions.</p>
-        </section>
-
-        <section class="bar-chart-section">
-            <h2>Industry Trends</h2>
-            <div class = "chart-wrapper">
-                <div id = "multi_chart"></div>
-                <div id = "bar_chart"></div>
-            </div>
-
-            <p>This chart illustrates the trends in job vacancies by industry over time.</p>
-        </section>
-    </main>
-
+        <!-- Second Section -->
+    <h2>Tracking Job Vacancies Across Industries</h2>
+    <div id = "combine_chart"></div>
+    <div class = "additional-text">
+        <p>
+            This section highlights the job vacancy trends across various states in Australia from August 2019 to August 2024. 
+            Use the map to view regional job opportunities and the multiline chart below to see trends over time for each state. 
+            Identify patterns, discover emerging job markets, and gain valuable insights to support policy-making, business strategies, and career decisions.
+        </p>
+    </div>
+    
+    
     <footer>
-        <p>&copy; 2024 Adam Loh. All rights reserved.</p>
+        <p>&copy; This visualization was created by Adam Loh - 13/10/2024 <br> </br> Source: <a href="https://www.abs.gov.au/statistics/labour/jobs/job-vacancies-australia/aug-2024"> Australia Bureau of Statistics</a></p>
     </footer>
 
     <script src="vega_lite.js"></script>
