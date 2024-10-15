@@ -1,27 +1,86 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Job Vacancies ('000) Over Time",
-    "width": 980,
-    "data": {
-      "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/Trend%20of%20Job%20Vacancies.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Job Vacancies ('000) Over Time with Annotations",
+  "width": 980,
+  "data": {
+    "url": "https://raw.githubusercontent.com/loha69/FIT3179-Assignment-2/refs/heads/main/data/Trend%20of%20Job%20Vacancies.csv"
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "title": "Date",
+          "timeUnit": "yearmonth"
+        },
+        "y": {
+          "field": "Job Vacancies",
+          "type": "quantitative",
+          "title": "Job Vacancies"
+        },
+        "tooltip": [
+          {"field": "Date", "type": "temporal"},
+          {"field": "Job Vacancies", "type": "quantitative", "format": ","}
+        ]
+      }
     },
-    "mark": "line",
-    "encoding": {
-      "x": {
-        "field": "Date",
-        "type": "ordinal",
-        "title": "Date",
-        "axis": {"labelAngle": -90}
+    {
+      "data": {
+        "values": [
+          {"Date": "2022-05-01", "Job Vacancies": 473100}, 
+          {"Date": "2020-05-01", "Job Vacancies": 128400},
+          {"Date": "2020-02-01", "Job Vacancies": 227400}
+
+        ]
       },
-      "y": {
-        "field": "Job Vacancies", 
-        "type": "quantitative",
-        "title": "Job Vacancies"
+      "mark": {
+        "type": "point",
+        "shape": "circle",
+        "color": "red",
+        "size": 100
       },
-      "tooltip": [
-        {"field": "Date", "type": "ordinal"},
-        {"field": "Job Vacancies", "type": "quantitative", "format": ","}
-      ]
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "timeUnit": "yearmonth"
+        },
+        "y": {
+          "field": "Job Vacancies",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"Date": "2022-05-01", "Job Vacancies": 473100, "text": "Highest Job Vacancies: 473,100"},
+          {"Date": "2020-05-01", "Job Vacancies": 128400, "text": "Lowest Job Vacancies: 128,400"},
+          {"Date": "2020-02-01", "Job Vacancies": 227400, "text": "COVID-19 Begin"}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 5,
+        "dy": -10,
+        "color": "black",
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "timeUnit": "yearmonth"
+        },
+        "y": {
+          "field": "Job Vacancies",
+          "type": "quantitative"
+        },
+        "text": {"field": "text", "type": "nominal"}
+      }
     }
-  }
-  
+  ]
+}
